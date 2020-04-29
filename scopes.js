@@ -23,6 +23,9 @@
     Hoisting - Hoisting is a behavior of variables declared using the 'var' keyword.
     This behavior causes the declaration (but not the assignment) of a variable
     to be lifted to the top of its scope.
+
+    const - Has the same scoping behavior as let. We cannot reassign a new value
+    to a variable that is declared with const.
 */
 
 var x = 20;
